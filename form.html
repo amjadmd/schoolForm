@@ -1,0 +1,101 @@
+<html>
+<head>
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="validate.js"></script>
+</head>
+<body>
+  
+    <h1>Student Information System</h1>
+    <div class="container">
+    <h3>Login Here</h3>
+            
+            <form  name="form1" action="#" method="post" id="register" onsubmit="return validation()">
+                <table class="container" ></tr>
+                
+                    <tr>
+                        <td><label for="name">Name</label>
+                        </td>
+                        <td>
+                        <input type="text" name="name" id="nam"  maxlength="20" placeholder="Enter full name">
+                        <span id="msg1"></span>
+                        </td>
+                    </tr>
+                
+                    <tr>
+                        <td><label for="DOB">Date of Birth</label>
+                        </td>
+                        <td>
+                        <input type="Date" name="DOB" id="dob" size="30" >
+                        <span id="msg2"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="qualification">Qualification</label>
+                        </td>
+                        <td>
+                        <input type="text" name="qualification" id="qual" maxlength="20" placeholder="Enter your Qualifications">
+                        <span id="msg3"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="location">Location</label>
+                        </td>
+                        <td>
+                        <input type="text" name="location" id="loc" maxlength="50" placeholder="Enter your location">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="T_skill">Technical skills</label>
+                        </td>
+                        <td>
+                        <input type="text" name="T_skill" id="tskill" maxlength="50" placeholder="Enter your Technical skills">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="I_skill">Interpersonal Skills</label>
+                        </td>
+                        <td>
+                        <input type="text" name="I_skill" id="iskill" maxlength="50" placeholder="Enter your Interpersonal skills">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="mobile">Mobile No.</label>
+                        </td>
+                        <td>
+                        <select id="ph"><option selected>+91</option></select>
+                        <input type="phone" name="mobile"  id="pho" maxlength="10" Placeholder="8765******">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email-Id</label>
+                        </td>
+                        <td>
+                        <input type="email" name="email"  id="email" maxlength="30" placeholder="abc@gamil.com">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="strength">Strength</label>
+                        </td>
+                        <td>
+                        <input type="text" name="strength" id="str" maxlength="50" placeholder="Enter your strengths">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="hobbies">Hobbies</label>
+                        </td>
+                        <td>
+                        <input type="text" name="hobbies" id="hobb" maxlength="50" placeholder="Enter your hobbies">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        <input type="submit" name="submit" id="sub" value="SUBMIT" class="btn">
+                        </td>
+                    </tr>
+            </table>
+            </form>
+        
+    </div>
+</body>
+</html>
